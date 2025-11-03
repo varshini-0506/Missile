@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment files (credentials should come from env vars)
+.env
+.env.local
+.env.*.local
+
+# Git
+.git/
+.gitignore
+
+# Documentation (optional - uncomment if you don't want docs in image)
+# README.md
+# *.md
+# docs/
+
+# Cache and logs
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Railway specific
+.railwayignore
+railway.json
+
+# Nixpacks (if using Docker, not needed)
+nixpacks.toml
+
+# Deployment configs (optional)
+render.yaml
+
